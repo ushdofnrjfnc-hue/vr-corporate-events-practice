@@ -1,17 +1,3 @@
-"""
-vr_oop.py
-Объектно-ориентированная реализация модуля организации
-корпоративных мероприятий в виртуальной реальности.
-Этап 4 учебной практики. Группа ИКБО-30-24.
-
-Содержит классы:
-- DatabaseError, ValidationError - пользовательские исключения
-- LightingType, RoomTemplate - перечисления
-- Vector3, VRObject, VirtualRoomConfig - классы данных
-- InvitationManager - управление приглашениями
-- VirtualRoomBuilder - конструктор виртуальных комнат
-- PollManager - система голосований
-"""
 
 import secrets
 import hashlib
